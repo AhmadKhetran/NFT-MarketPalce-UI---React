@@ -1,0 +1,56 @@
+.creator-component-box {
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center; 
+    align-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    transition: 0.3s;
+    
+
+}
+.creator-id {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height:35px;
+    border-radius: 50px;
+    top: 0;
+    left: 0;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    position: absolute;
+
+}
+
+.creator-id-para {
+    color: white;
+    opacity: 50%;
+    font-family: Space Mono;
+}
+.creator-img-id {
+    background-color: rgb(73, 68, 62);
+    display: flex;
+}
+
+.creator-img {
+    margin-bottom: 10px;
+}
+
+.creator-sales {
+    color: white; 
+    font-size:clamp(0.8rem , 1vw , 1rem);
+}
+
+.creator-dim-text {
+opacity: 50%;
+letter-spacing: 1px;
+font-size:clamp(0.8rem , 1vw , 0.9rem);
+}
+

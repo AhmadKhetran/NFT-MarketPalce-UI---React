@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@300;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700;800&display=swap');
+
+.main-col-div {
+    position: relative;
+}
+
+.col-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 1vw;
+}
+
+.col-grid-div {
+    background-color: var(--purple-color);
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ;
+
+}
+.grid-div-p {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 160%;
+    color: white;
+}
+
+.imgsm {
+transition: 0.3s;
+width: 100%;
+}
+
+.col-grid2 {
+    margin-top: 8px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.col-profile-img {
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+}
+
+.col-profile-name {
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: white;
+}
+.col-img{
+    transition: 0.3s;
+    width: 100%;
+}
+
+

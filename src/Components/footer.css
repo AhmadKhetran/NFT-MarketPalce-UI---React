@@ -1,0 +1,45 @@
+.footer {
+    justify-content: space-between;
+    color: white;
+    background-color: var(--secondary-color);
+}
+.footer-content {
+    display: flex; 
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+.paratextfooter {
+    font-size: 14px;
+    margin-top: 13px;
+    font-weight: 300;
+    opacity: 80%;
+}
+.headitextfooter {
+    font-family: Space Mono;
+    font-size: 1.4rem;
+}
+.socialmedia-footer {
+    display: flex;
+    justify-content: space-between;
+    width:130px;
+
+    margin-top: 13px;
+}
+.footer-icons {
+    font-size: 30px;
+    opacity: 0.6;
+    color: rgb(252, 247, 247);
+}
+.mmt {
+    margin-top: 12px !important;
+    height: 60px;
+}
+.footer-line {
+    margin-top: 20px;
+}
+.footer-text  {
+    font-size: 10px;
+    margin-top: 20px;
+}

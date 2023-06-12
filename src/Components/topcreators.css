@@ -1,0 +1,30 @@
+.creators-flex-box {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.btn-rankings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 3rem;
+    height: 60px;
+    width: 247px;
+    background-color: var(--background-color);
+    border: 1px solid var(--purple-color);
+    border-radius: 1.2rem;
+    gap: 1vw;
+    transition: 0.3s;
+}
+.rocketimg {
+    width: 20px;
+}
+.creators-grid {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 2em;
+}

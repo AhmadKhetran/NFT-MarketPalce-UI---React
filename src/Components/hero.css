@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@300;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700;800&display=swap');
+.hero-flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hero-content {
+    width: 600px;
+}
+.hero-img {
+    width: 50%
+}
+
+.main-heading {
+    color:white;
+    font-family: 'Work Sans';
+    line-height: 110%;
+    font-size: 4.1rem;
+    font-weight: 600;
+}
+.text-content {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: white;
+    margin-top:20px;
+}
+.btn-getstarted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--purple-color);
+    width: 224px;
+    height: 60px;
+    border-radius: 20px;
+    gap: .5vw;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+.rock-icon {
+    width: 25px;
+}
+.hero-grid-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+
+.grid-head {
+    font-family: Space Mono;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+    line-height: 140%;
+}
+.grid-para {
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 23.99px;
+line-height: 160%;
+color: white;
+}
+
+.heroimg {
+    width: 550px;
+}
+
+
+
+  @media only screen and (max-width: 1280px) {
+    .main-heading {
+        color:white;
+        font-family: Work Sans;
+        line-height: 120%;
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+    .text-content {
+        font-size: 1rem;
+        line-height: 140%;
+    }
+    .grid-head {
+        font-size: 1.3rem;
+        line-height: 160%;
+    }
+    .grid-para {
+        font-size: 1rem;
+        line-height: 140%;
+        }
+    .heroimg {
+    width: 500px;
+            
+        }
+  }
+
+  @media only screen and (max-width: 1080px) {
+    .main-heading {
+        color:white;
+        font-family: Work Sans;
+        line-height: 120%;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .text-content {
+        font-size: 1rem;
+        line-height: 140%;
+    }
+    .grid-head {
+        font-size: 1.3rem;
+        line-height: 160%;
+    }
+    .grid-para {
+        font-size: 1rem;
+        line-height: 140%;
+        }
+    .heroimg {
+    width: 450px;
+            
+        }
+  }
+  @media only screen and (max-width: 770px) {
+    .main-heading {
+        color:white;
+        font-family: Work Sans;
+        line-height: 120%;
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+    .text-content {
+        font-size: 1rem;
+        line-height: 140%;
+    }
+    .grid-head {
+        font-size: 1.3rem;
+        line-height: 160%;
+    }
+    .grid-para {
+        font-size: 1rem;
+        line-height: 140%;
+        }
+    .heroimg {
+    width: 300px;
+            
+        }
+  }

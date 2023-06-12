@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@300;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700;800&display=swap');
+.nft-component {
+    width: auto;
+    height: auto;
+    background-color: var(--secondary-color);
+    border-radius:  60px 60px 25px 25px;
+    
+}
+
+.nft-img {
+    width: 100%;
+}
+.nft-container {
+  padding: 20px;
+}
+
+.nft-com-title {
+    font-size: clamp(1.4rem, 4vw, 1.6rem) ;
+    color:white
+}
+
+.nft-creator {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.nft-avatar-img {
+    width:  30px;
+    height: 30px;
+    border-radius: 50px;
+}
+.nft-creator-name {
+    font-family:  Space Mono;
+    font-size: clamp(1rem,2.7vw, 1.2rem);  
+    color :white
+
+}
+
+.nft-creds {
+    display: flex; 
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.nft-creds-title {
+    color: white;
+    font-family:  Space Mono;
+    font-size: 0.8rem;  
+    opacity: 50%;
+}
+.nft-eth {
+    color: white;
+    font-family: Space Mono ;
+    font-size: clamp(1rem,2.7vw, 1.2rem);  
+    margin-top: 10px;
+}

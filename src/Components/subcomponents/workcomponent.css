@@ -1,0 +1,26 @@
+.workcomponent {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.work-component-heading {
+    font-size: 1.7rem;
+    color: white;
+    margin-top: 20px;
+}
+
+.work-component-para {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-weight: 300;
+}
+.work-component-img {
+    width: 100%;
+}
